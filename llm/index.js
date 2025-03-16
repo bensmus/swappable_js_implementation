@@ -7,4 +7,4 @@ const providerMap = {
   "charlie": charlie
 };
 
-export const { logCat1, logCat2 } = providerMap[provider];
+export default providerMap[provider];

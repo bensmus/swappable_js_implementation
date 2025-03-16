@@ -1,4 +1,4 @@
-import { logCat1, logCat2 } from "./llm/index.js";
+import llm from "./llm/index.js";
 
-logCat1();
-logCat2();
+llm.logCat1();
+llm.logCat2();
